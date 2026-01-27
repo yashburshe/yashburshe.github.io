@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash@Portfolio:~$</title>
+    <link rel="stylesheet" href="css/terminal-styles.css" />
+    <meta name="author" content="Yash Mahesh Burshe" />
+    <meta
+      name="description"
+      content="Terminal UI for personal homepage and portfolio of Yash Mahesh Burshe, a graduate Computer Science student at Northeastern University."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖥️</text></svg>"
+    />
+  </head>
+
+  <body>
+    <div id="terminal-container">
+      <div class="line">
+        Type <span class="command">'help'</span> to see available commands.
+      </div>
+      <div id="history"></div>
+
+      <div id="input-line">
+        <span class="prompt" id="prompt-text">user@portfolio:~$</span>
+        <input type="text" id="cmd-input" autocomplete="off" autofocus />
+      </div>
+    </div>
+    <script src="js/terminal.js"></script>
+  </body>
+</html>

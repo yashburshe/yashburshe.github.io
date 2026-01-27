@@ -1,0 +1,30 @@
+{
+  "about": {
+    "bio.txt": "I'm Yash and I'm a graduate Computer Science student at Northeastern University. I love building full stack applications from the ground up. I code in Java and C# and my choice of scripting language is JavaScript.",
+    "contact.txt": "Email: bursheyash2@gmail.com\nGithub: github.com/yashburshe\nLinkedIn: linkedin.com/in/yash-burshe"
+  },
+  "projects": {
+    "sentinelshare.txt": "This project aims to create a tamperproof data sharing platform that can be used to securely share data between organisations and third parties. ",
+    "elastic.txt": "This was my Master's Independent Project course. It is a tool that detects the 'Middle Man' and 'Long Method' code smell and leverages LLMs for reasoning to reduce the presence of false positives. ",
+    "dotfiles-windows.txt": "My script for setting up my developer environment on a new Windows machine quickly using PowerShell and Winget. "
+  },
+  "work": {
+    "intern2.txt": "Company: Oneture Technologies (2024)\nCreated a UDP Packet Streamer for ICICI Securities in C# using .NET 6 with a GUI using WinForms to upgrade a legacy .NET 3.5 application",
+    "intern1.txt": "Company: Oneture Technologies (2021)\nImplemented an automated pipeline to create documentation for ICICI Securities’ iBreeze API to eliminate manual documentation"
+  },
+  "research": {
+    "smellm.txt": "A code smell is defined as an anti-pattern when writing code. Presence of code smells can make code harder to read, more difficult to maintain and generally harder to debug or make changes to. The increasing usage of LLMs in the field of Software Engineering lead us to examine the effectiveness of popular LLMs in identifying these code smells and developing a tool that can help evaluate the effectiveness of these LLMs and provide the user feedback about their code.",
+    "ELASTIC.txt": "Building on SmeLLM, this approach uses Static Analysis (particularly Abstract Syntax Tree parsing) to create rules to detect code smells.",
+    "clavin-nerd.txt": "Enhancing the CLAVIN-NERD model to achieve more accurate location entity recognition and extraction capabilities. Exploring different approaches, such as retraining, fine-tuning and post processing-procedures to improve the model's performance."
+  },
+  "courses-taken": {
+    "cs7990.txt": "Master's Thesis (Northeastern University)",
+    "cs5610.txt": "Web Development (Northeastern University)",
+    "cs8674.txt": "Master's Project (Northeastern University)",
+    "cs5520.txt": "Mobile Application Development (Northeastern University)",
+    "cs5800.txt": "Algorithms (Northeastern University)",
+    "cs5500.txt": "Foundations of Software Engineering (Northeastern University)",
+    "cs5100.txt": "Programming Design Paradigms (Northeastern University)",
+    "cs5200.txt": "Database Management Systems (Northeastern University)"
+  }
+}

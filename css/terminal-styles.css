@@ -1,0 +1,66 @@
+/* --- MATRIX TERMINAL THEME --- */
+:root {
+  --bg-color: #0c0c0c;
+  --text-green: #00ff00;
+  --dir-blue: #5e9eff;
+  --error-red: #ff5555;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-green);
+  font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5px;
+}
+
+/* Input Styling */
+#cmd-input {
+  background: transparent;
+  border: none;
+  color: var(--text-green);
+  outline: none;
+  box-shadow: none;
+  caret-color: var(--text-green);
+  padding: 0;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+/* Text Colors */
+.prompt-text {
+  color: var(--text-green);
+  font-weight: bold;
+  margin-right: 8px;
+}
+.text-output {
+  color: #ccffcc;
+  white-space: pre-wrap;
+}
+.text-dir {
+  color: var(--dir-blue);
+  font-weight: bold;
+}
+.text-error {
+  color: var(--error-red);
+}
+
+/* SPACING: This class adds the gap between command blocks */
+.history-block {
+  margin-bottom: 20px; /* Adjust this value for more/less space */
+}
