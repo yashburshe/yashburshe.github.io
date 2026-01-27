@@ -12,6 +12,10 @@ https://johnguerra.co/classes/webDevelopment_online_spring_2026/
 
 To create a website using HTML, CSS and JavaScript along with Bootstrap for my personal homepage.
 
+## Design Document
+
+https://docs.google.com/document/d/1D6e1yzrltWENoX6iGHmThvqGseVcnRRYkQbc8fTkJ1o/edit?usp=sharing
+
 ## Screenshots
 
 ### index.html
