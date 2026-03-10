@@ -1,0 +1,22 @@
+body {
+  background-image: url("./assets/purple-spaceship.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+p {
+  margin: 45px;
+  width: 40ch;
+  border: 10px ridge rgb(145, 144, 144);
+  border-top: 20px ridge rgb(227, 225, 225);
+  border-right: 20px ridge rgb(168, 167, 167);
+  border-radius: 10px 0px 10px 0px;
+  padding: 15px;
+  background-color: rgb(73, 73, 207) ;
+  color: white;
+  font-family: "Orbitron";
+  letter-spacing: 4px;
+  line-height: 32px;
+  word-wrap: break-word;
+}

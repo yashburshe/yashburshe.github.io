@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Unifont-web";
+  src: url('./assets/unifont-web.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Orbitron";
+  src: url('./assets/Orbitron-VariableFont.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #a0e0fb;
+  background-image: url("./assets/white-tiles.png");
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: rgb(63, 133, 133);
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li > a {
+  color: black;
+  text-decoration: none;
+  border: 4px outset rgb(65, 108, 109);
+  background-color: cadetblue;
+  padding: 5px;
+  width: 150px;
+  display: block;
+}
+
+nav > ul > li > a:hover {
+  background-color: rgb(78, 131, 132);
+}
+
+nav > ul > li > a:active {
+  border: 4px inset rgb(65, 108, 109);
+}
+
+/* Classes */
+
+.marquee {
+  border: 2px dotted rgb(201, 231, 10);
+  background-color: rgb(86, 143, 86);
+  overflow: hidden;
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee-content > p {
+  display: flex;
+  align-items: center;
+  gap: 1ch;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
